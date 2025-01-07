@@ -17,7 +17,7 @@ def criptText():
         except:
             continue
         if salvar == 1:
-            with open(f"{''.join(random.choices(string.ascii_letters+string.digits, k=10))}.key", "wb") as arquivo:
+            with open(f"{''.join(random.choices(string.ascii_letters+string.digits, k=10))}.txt", "wb") as arquivo:
                 dados = arquivo.write(textoCript)
                 print("Salvo com sucesso!")
                 break
