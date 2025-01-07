@@ -55,5 +55,3 @@ A função `menu()` serve como ponto de entrada para o programa, apresentando um
 - `cryptography`: Para a criptografia e decriptação utilizando Fernet e para geração de hashes.
 - `random`: Para a geração de nomes aleatórios de arquivos.
 - `re` e `string`: Para manipulação de strings e geração de caracteres aleatórios.
-
-Este código é útil para quem precisa criptografar textos ou arquivos, gerar hashes e realizar operações de segurança em dados de forma simples.
